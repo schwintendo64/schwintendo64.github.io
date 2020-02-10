@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P|Rokkitt);
+
+body {
+	background-color: white;
+
+header {
+	text-align: center;
+}
+
+}
+h1 {
+	color: black;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+p {
+	color: black;
+	text-align: center;
+	font-family: 'Rokkitt', serif;
+}
