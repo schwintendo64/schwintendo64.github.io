@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P|Rokkitt);
+* {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: white;
+}
+
+header {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: black;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+h3{
+	font-size: .75em
+}
+
+p {
+	color: black;
+	text-align: center;
+	font-family: 'Rokkitt', serif;
+}
+
+.two_columns section {
+	padding: 1em;
+	float: left;
+	width: 50%;
+}
+
+.three_columns section {
+	background-color: white;
+	padding: 1em;
+	float: left;
+	width: 33.333%;
+}
+
+.wrapper:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media only screen and (max-width: 630px) {
+	#slogan {
+		font-size: .6em;
+	}
+	#wrapper three_columns {
+		width: 33.333%;
+	}
+	h1, h2, h3, p {
+		font-size: .6em;
+	}
+}
